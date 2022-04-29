@@ -11,6 +11,7 @@ export default {
  1.setup是Composition API的组合 
  2.组件中用到的：数据，方法等均放在setup中
  3.尽量不要和vue2进行混用
+ 4.setup不能是一个async函数，因为返回值不再是return的对象，而是promise，模板看不到return对象中的属性。（后期可以返回Promise实例，但需要Suspense和异步组件的配置）
  */
   setup() {
     let name = "小明";

@@ -1,5 +1,6 @@
 <template>
   <teleport to="body(想要移动的位置，css标签名，类名)"></teleport>
+  <suspense></suspense>
 </template>
 
 <script>
