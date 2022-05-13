@@ -1,5 +1,5 @@
 <template>
-  <!-- Vue中不需要一个标签进行包裹了  -->
+  <!-- Vue3中不需要一个标签进行包裹了  -->
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Welcome to Your Vue.js App" />
 </template>
